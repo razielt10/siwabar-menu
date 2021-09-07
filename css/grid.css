@@ -613,7 +613,7 @@
 	.ppb_transparent_video_bg .post_title h3 { font-size: 24px; line-height: 28px; }
 	.ppb_transparent_video_bg .post_title .post_excerpt { font-size: 14px; }
 	.client_logo { max-width: 100%; }
-	.one_half, .one_half.last { width: 100%; clear: both; margin-bottom: 15px; }
+	.one_half, .one_half.last { width: 100%; clear: both; margin-bottom: 5px; }
 	#blog_grid_wrapper { padding-top: 20px; }
 	#photo_wall_wrapper .wall_entry.three_cols, .photo_wall_wrapper .wall_entry.three_cols { width: 100%; }
 	.promo_box { text-align: center; }

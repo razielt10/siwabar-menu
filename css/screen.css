@@ -1776,6 +1776,28 @@ body.page-template-portfolio-2-php .footer_bar, body.page-template-portfolio-3-p
 	margin-top: 0 !important;
 }
 
+.menu_container {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.menu_items {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 30px;
+	padding-top: 30px;
+}
+
+@media (max-width: 786px) {
+	.menu_items {
+		grid-template-columns: 1fr;
+	}
+}
+
 .one.withbg
 {
 	background-size: cover;
@@ -4738,8 +4760,7 @@ ul.flickr li
 .menu_content_classic
 {
 	width: 100%;
-	float: left;
-	margin: 30px 0 0 0;
+	margin: 0 0 0 0;
 	text-align: left;
 }
 
@@ -4795,7 +4816,7 @@ h5.menu_post
 
 h5.menu_post.image
 {
-	width: calc(100% - 75px);
+	width: calc(100% - 5px);
 	margin-left: 75px;
 }
 
@@ -4900,7 +4921,7 @@ h5.menu_post.image
 
 .menu_content_classic .post_detail.menu_excerpt
 {
-	width: calc(75% - 75px);
+	width: calc(75% - 5px);
 }
 
 .menu_content_classic .post_detail.menu_excerpt.image
@@ -4925,20 +4946,15 @@ html[data-menu=leftmenu] .menu_content_classic .post_detail.menu_excerpt
 
 .menu_content_classic .menu_highlight, .portfolio_slider_desc .menu_highlight
 {
-	width: 14px;
-	height: 14px;
-	line-height: 16px;
+	line-height: 15px;
 	text-align: center;
 	padding: 3px;
 	background: #cfa670;
 	color: #fff;
 	float: right;
-	font-size: 10px;
-	position: relative;
-	top: 2px;
+	font-size: 13px;
 	font-weight: 600;
 	border-radius: 3px;
-	margin-left: 5px;
 }
 
 .menu_content_classic .menu_order, .portfolio_slider_desc .menu_order
@@ -6843,23 +6859,13 @@ body.hover .page_slider .tp-leftarrow.default:hover, body.hover .page_slider .tp
 
 .one_half
 {
-	float: left;
-	width: 48%;
-	margin-right: 3.5%;
+	margin: 0;
 	box-sizing: border-box;
-}
-
-.one_half_map
-{
-	
 }
 
 .one_half.last
 {
-	float: right;
-	width: 48%;
-	margin-right: 0;
-	clear: right;
+	margin: 0;
 }
 
 .portfolio2filter_wrapper
@@ -7052,18 +7058,9 @@ body.hover .page_slider .tp-leftarrow.default:hover, body.hover .page_slider .tp
 
 .one_third
 {
-	width: 30.66%;
-	float: left;
-	margin-right: 4%;
+	margin: 0;
 	position: relative;
 	box-sizing: border-box;
-}
-
-.one_third.last
-{
-	margin-right: 0 !important;
-	float: right;
-	width: 30.66%;
 }
 
 .one_third.portfolio3_wrapper
