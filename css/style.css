@@ -1031,3 +1031,19 @@ html[data-menu=leftmenu] #wrapper
 .flex-active-slide img {
     width: 100%;
 }
+
+.text-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-price .menu_excerpt {
+    display: block;
+}
+
+.text-price span.price_right {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+}
